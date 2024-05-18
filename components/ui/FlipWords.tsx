@@ -21,7 +21,7 @@ export const FlipWords = ({
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  });
 
   const startAnimation = () => {
     let i = 0;

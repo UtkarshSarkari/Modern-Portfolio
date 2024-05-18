@@ -16,7 +16,7 @@ export default function GridBackground() {
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
 
             <div className="flex flex-col justify-center items-center gap-10">
-                <div className="uppercase tracking-widest max-xs:text-xl xs:text-[26px] sm:text-3xl xs:leading-[40px] text-center md:bg-clip-text md:text-transparent md:bg-gradient-to-b md:from-neutral-50 md:to-neutral-400 md:bg-opacity-50">
+                <div className="uppercase tracking-widest max-xs:text-xl xs:text-[26px] sm: xs:leading-[40px] text-center md:bg-clip-text md:text-transparent md:bg-gradient-to-b md:from-neutral-50 md:to-neutral-400 md:bg-opacity-50">
                     Hello, I'm Utkarsh Sarkari
                 </div>
                 <div className="flex justify-center items-center text-center">
@@ -26,9 +26,7 @@ export default function GridBackground() {
                         <span className="text-wrap">Into Impactful Code Blocks</span>
                     </div>
                 </div>
-                {/* <div className="text-2xl tracking-wider">
-                Proficient in MERN Stack, ensuring the delivery of high-quality web solutions that drive impactful outcomes.
-                </div> */}
+                
                 <GradientButton text="EXPLORE WORK" icon={arrow} height={35} width={35} className={"ml-2"} alt="icon" handleClick={handleClick} />
             </div>
 
